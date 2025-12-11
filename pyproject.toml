@@ -1,0 +1,11 @@
+[project]
+name = "planogram-engine"
+version = "0.1.0"
+description = "Dynamic 4-Phase Planogram Engine MVP"
+requires-python = ">=3.10"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
