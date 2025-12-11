@@ -1,0 +1,16 @@
+name: CI Placeholder
+
+on:
+  push:
+    branches: [ develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: CI placeholder
+        run: echo "CI placeholder — add real tests later"
